@@ -1,5 +1,25 @@
-# bookshelf-API
-Dicoding bookshelf API submission by me
+# Bookshelf API  
 
-When i wrote this code, only god and i who knew how it workerd. Now only god knows it.
-If you are trying to optimize this routline and it fails (i guess), please increase this counter as a waring for next person. 
+Bookshelf API is a simple RESTful API built using **Node.js** and **Hapi.js**. It provides CRUD operations to manage a collection of books, making it a perfect example for learning backend development fundamentals.  
+
+## Features  
+
+1. **Add New Book**  
+   - **Endpoint**: `POST /books`  
+   - Adds a new book to the collection.  
+
+2. **Retrieve All Books**  
+   - **Endpoint**: `GET /books`  
+   - Fetches a list of all books with basic information.  
+
+3. **Retrieve Book by ID**  
+   - **Endpoint**: `GET /books/{id}`  
+   - Fetches detailed information for a book by its ID.  
+
+4. **Update Book**  
+   - **Endpoint**: `PUT /books/{id}`  
+   - Updates the details of an existing book.  
+
+5. **Delete Book**  
+   - **Endpoint**: `DELETE /books/{id}`  
+   - Deletes a book from the collection using its ID.  
